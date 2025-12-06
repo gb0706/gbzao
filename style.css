@@ -1,71 +1,21 @@
 body {
-    background-color: #111;
-    color: white;
-    font-family: Arial, sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201010/pngtree-abstract-system-technology-background-image_409296.jpg'); 
+    color: blue;
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.topo {
-    background: #3b0057;
-    padding: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-}
+}   
 
-.sair {
-    color: white;
-    font-size: 18px;
-}
-
-.titulo {
-    margin-top: 30px;
-    font-size: 32px;
-    color: #e0b3ff;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40px;
-    gap: 30px;
-}
-
-.card {
-    background: #222;
-    padding: 20px;
-    border-radius: 10px;
-    width: 220px;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    background: #2e2e2e;
-}
-
-.card img {
-    width: 200px;
-}
-
-h3 {
-    margin-top: 15px;
-    color: #e0b3ff;
-}
-
-/* estilo dos formulários */
 form {
     background-color: white;
-    color: black;
     padding: 30px;
     border-radius: 5px;
-    width: 350px;
-    margin-top: 8%;
+    width: 400px;
+    height: 200px;
+    margin-top: 12%;
 }
 
-a {
-    color: #c87eff;
+h1, a {
+    color: black;
 }
