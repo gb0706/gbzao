@@ -1,16 +1,71 @@
 body {
-    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201010/pngtree-abstract-system-technology-background-image_409296.jpg'); 
-    color: blue;
-
-    /* ADICIONE estas 3 linhas ↓↓↓ */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* ↑↑↑ ESSAS CENTRALIZAM TUDO */
-
-    flex-direction: column;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-    height: 100vh;     /* Necessário */
-    margin: 0;         /* Necessário */
+.topo {
+    background: #3b0057;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sair {
+    color: white;
+    font-size: 18px;
+}
+
+.titulo {
+    margin-top: 30px;
+    font-size: 32px;
+    color: #e0b3ff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #2e2e2e;
+}
+
+.card img {
+    width: 200px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #e0b3ff;
+}
+
+/* estilo dos formulários */
+form {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 5px;
+    width: 350px;
+    margin-top: 8%;
+}
+
+a {
+    color: #c87eff;
 }
